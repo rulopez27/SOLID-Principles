@@ -15,14 +15,14 @@ namespace Entities
         /// <summary>
         /// Movie's gengres list
         /// </summary>
-        public List<string> Gengres { get; set; }
+        public List<string> Genres { get; set; }
 
         /// <summary>
         /// Public default constructor. Initializes an empty Movie object
         /// </summary>
         public Movie()
         {
-            Gengres = new List<string>();
+            Genres = new List<string>();
         }
 
         /// <summary>
@@ -32,7 +32,7 @@ namespace Entities
         public Movie(string title)
         {
             Title = title;
-            Gengres = new List<string>();
+            Genres = new List<string>();
         }
 
         /// <summary>
