@@ -26,9 +26,9 @@ namespace Entities
         }
 
         /// <summary>
-        /// Initializes a Movie object with a title
+        /// Initializes a Movie object with a given title
         /// </summary>
-        /// <param name="title"></param>
+        /// <param name="title">Movie title</param>
         public Movie(string title)
         {
             Title = title;
