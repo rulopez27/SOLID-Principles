@@ -8,10 +8,26 @@ namespace Entities
     public class Client
     {
         /// <summary>
-        /// Client's Name
+        /// Client's First Name
         /// </summary>
-        public string Name { get; set; }
-        
+        public string FirstName { get; set; }
+
+        /// <summary>
+        /// Client's Last Name
+        /// </summary>
+        public string LastName { get; set; }
+
+        /// <summary>
+        /// Client's full name
+        /// </summary>
+        public string FullName 
+        {
+            get
+            {
+                return $"{FirstName} {LastName}";
+            }
+        }
+
         /// <summary>
         /// Client's favorite movies
         /// </summary>
@@ -28,31 +44,34 @@ namespace Entities
         /// <summary>
         /// Initializes a client object with a given name
         /// </summary>
-        /// <param name="name"></param>
-        public Client(string name)
+        /// <param name="firstName">Client's first name</param>
+        /// <param name="lastName">Client's last name</param>
+        public Client(string firstName, string lastName)
         {
-            Name = name;
+            FirstName = firstName;
             FavoriteMovies = new List<Movie>();
         }
 
         /// <summary>
         /// Initializes a client object with given name and list of favorite movies
         /// </summary>
-        /// <param name="name">Client's name</param>
+        /// <param name="firstName">Client's first name</param>
+        /// <param name="lastName">Client's last name</param>
         /// <param name="favoriteMovies">Client's list of favorite movies</param>
-        public Client(string name, List<Movie> favoriteMovies)
+        public Client(string firstName, string lastName, List<Movie> favoriteMovies)
         {
-            Name = name;
+            FirstName = firstName;
+            LastName = lastName;
             FavoriteMovies = favoriteMovies;
         }
 
         /// <summary>
-        /// Override ToString function that will return Client's name
+        /// Override ToString function that will return Client's full name
         /// </summary>
-        /// <returns>Client's name</returns>
+        /// <returns>Client's full name</returns>
         public override string ToString()
         {
-            return Name;
+            return FullName;
         }
     }
 }
