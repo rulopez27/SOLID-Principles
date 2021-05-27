@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibility", "Sin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "..\Entities\Entities.csproj", "{CC24E154-E8CF-41E7-A7DE-5C2397FCDB32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesDatabaseContext", "..\MoviesDatabaseContext\MoviesDatabaseContext.csproj", "{CDA3551B-8E0C-4A34-9887-BB717113CFA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CC24E154-E8CF-41E7-A7DE-5C2397FCDB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC24E154-E8CF-41E7-A7DE-5C2397FCDB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC24E154-E8CF-41E7-A7DE-5C2397FCDB32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDA3551B-8E0C-4A34-9887-BB717113CFA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA3551B-8E0C-4A34-9887-BB717113CFA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA3551B-8E0C-4A34-9887-BB717113CFA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA3551B-8E0C-4A34-9887-BB717113CFA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
