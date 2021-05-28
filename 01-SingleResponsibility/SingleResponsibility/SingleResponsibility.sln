@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibility", "SingleResponsibility.csproj", "{8AE57B85-CF25-4A0D-AE91-4DD8EE005BAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibility", "SingleResponsibility.csproj", "{8AE57B85-CF25-4A0D-AE91-4DD8EE005BAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "..\Entities\Entities.csproj", "{CC24E154-E8CF-41E7-A7DE-5C2397FCDB32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "..\Entities\Entities.csproj", "{CC24E154-E8CF-41E7-A7DE-5C2397FCDB32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoviesDatabaseContext", "..\MoviesDatabaseContext\MoviesDatabaseContext.csproj", "{CDA3551B-8E0C-4A34-9887-BB717113CFA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoviesDatabaseContext", "..\MoviesDatabaseContext\MoviesDatabaseContext.csproj", "{CDA3551B-8E0C-4A34-9887-BB717113CFA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContextHelper", "..\ContextHelper\ContextHelper.csproj", "{76078E8E-BD49-422C-947B-4F097FB31135}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContextHelper", "..\ContextHelper\ContextHelper.csproj", "{76078E8E-BD49-422C-947B-4F097FB31135}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleResponsibilityTests", "..\SingleResponsibilityTests\SingleResponsibilityTests.csproj", "{D5F2AA7B-77B5-492A-B5FB-5DAB82841AE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleResponsibilityTests", "..\SingleResponsibilityTests\SingleResponsibilityTests.csproj", "{D5F2AA7B-77B5-492A-B5FB-5DAB82841AE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLayer", "..\BusinessLayer\BusinessLayer.csproj", "{33C6FEA5-39DB-43EC-9171-19F29980BFAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{D5F2AA7B-77B5-492A-B5FB-5DAB82841AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5F2AA7B-77B5-492A-B5FB-5DAB82841AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5F2AA7B-77B5-492A-B5FB-5DAB82841AE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C6FEA5-39DB-43EC-9171-19F29980BFAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C6FEA5-39DB-43EC-9171-19F29980BFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C6FEA5-39DB-43EC-9171-19F29980BFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C6FEA5-39DB-43EC-9171-19F29980BFAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

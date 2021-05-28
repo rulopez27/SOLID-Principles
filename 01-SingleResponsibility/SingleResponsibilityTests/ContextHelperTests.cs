@@ -6,7 +6,7 @@ using System.Linq;
 
 namespace SingleResponsibilityTests
 {
-    public class Tests
+    public class ContextHelperTests
     {
         [SetUp]
         public void Setup()
